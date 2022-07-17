@@ -1,0 +1,30 @@
+BaseUrl= "https://nestedclub.github.io/"
+LanguageCode= "en-US"
+Title= "Nested Club"
+paginate = 5
+DisqusShortname = ""
+Copyright = "All rights reserved - 2022"
+canonifyurls = true
+
+[author]
+  name = "nested club"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug"
+
+[params]
+  description = "We are working on something groundbreaking. Stay tuned."
+  cover = "images/user.jpg"
+  author = "nested club"
+  authorlocation = ""
+  authorwebsite = "https://syui.cf/hugo-theme-air"
+  bio= "my bio"
+  logo = "images/user-1.png"
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = "nested.club"
+  twitterName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  mainSections = ["post"]
